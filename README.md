@@ -4,20 +4,20 @@ A modern, responsive grid of job opening cards built from scratch using React, V
 
 This project demonstrates clean UI design principles, including flexbox layouts, uniform card structures, text truncation for long titles, and dynamic data rendering.
 
-## 🌟 Features
+##  Features
 
 - **Dynamic Rendering**: Cards are rendered dynamically by mapping over an array of job listing objects.
 - **Modern UI/UX**: Includes a clean dark mode background, high-resolution company logos, and styled tags.
 - **Uniform Layouts**: Uses Flexbox and CSS min-height constraints to ensure all cards align perfectly, regardless of varying text lengths.
 - **Reliable Assets**: Integrates Google's Favicon service to dynamically fetch high-quality, up-to-date company logos based on their domain.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **React** (Components, Props, JSX)
 - **Vite** (Next Generation Frontend Tooling)
 - **CSS3** (Flexbox, custom styling, responsive design)
 
-## 🚀 Getting Started
+## Getting Started
 
 To run this project locally on your machine, follow these steps:
 
@@ -43,7 +43,6 @@ To run this project locally on your machine, follow these steps:
 
 5. Open your browser and visit the `localhost` link provided in your terminal (usually `http://localhost:5173/`).
 
-## 📸 Screenshots
+##  Screenshots
 
-*(Tip: Take a screenshot of your beautiful cards and save it as `preview.png` in your project folder, then uncomment the line below!)*
 ![Project Preview](./preview.png)
