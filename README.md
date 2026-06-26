@@ -1,16 +1,49 @@
-# React + Vite
+# Job Board Cards UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive grid of job opening cards built from scratch using React, Vite, and custom CSS. 
 
-Currently, two official plugins are available:
+This project demonstrates clean UI design principles, including flexbox layouts, uniform card structures, text truncation for long titles, and dynamic data rendering.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌟 Features
 
-## React Compiler
+- **Dynamic Rendering**: Cards are rendered dynamically by mapping over an array of job listing objects.
+- **Modern UI/UX**: Includes a clean dark mode background, high-resolution company logos, and styled tags.
+- **Uniform Layouts**: Uses Flexbox and CSS min-height constraints to ensure all cards align perfectly, regardless of varying text lengths.
+- **Reliable Assets**: Integrates Google's Favicon service to dynamically fetch high-quality, up-to-date company logos based on their domain.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **React** (Components, Props, JSX)
+- **Vite** (Next Generation Frontend Tooling)
+- **CSS3** (Flexbox, custom styling, responsive design)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+To run this project locally on your machine, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   ```
+
+2. **Navigate to the project directory:**
+   ```bash
+   cd your-repo-name
+   ```
+
+3. **Install the dependencies:**
+   ```bash
+   npm install
+   ```
+
+4. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and visit the `localhost` link provided in your terminal (usually `http://localhost:5173/`).
+
+## 📸 Screenshots
+
+*(Tip: Take a screenshot of your beautiful cards and save it as `preview.png` in your project folder, then uncomment the line below!)*
+![Project Preview](./preview.png)
